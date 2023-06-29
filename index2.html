@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tushar-Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(28, 28, 55);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0px 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(123, 123, 195);
+        font-size: 1.03rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 23px 0px;
+      }
+      .firstsection > div {
+        width: 35%;
+        font-size: 40px;
+      }
+      .leftsection {
+        margin: 124px 0px;
+      }
+      .leftsection .buttons {
+        padding: 8px;
+      }
+      .leftsection .btn {
+        cursor: pointer;
+        font-size: 14px;
+        background-color: #242468;
+        color: white;
+        border: 1.5px solid white;
+        border-radius: 5px;
+        padding: 7px;
+      }
+      .leftsection .btn-visit {
+        cursor: pointer;
+        font-size: 14px;
+        background-color: white;
+        color: #242468;
+        border-radius: 5px;
+        padding: 7px;
+      }
+      .rightsection img {
+        width: 100%;
+      }
+      .purple {
+        color: lightskyblue;
+      }
+      .text-grey {
+        color: grey;
+      }
+      #element {
+        color: lightskyblue;
+      }
+      main hr {
+        border: 0px;
+        background-color: lightblue;
+        height: 1px;
+        margin: 40px 34px;
+      }
+      .secondsection {
+        max-width: 82vw;
+        margin: auto;
+        height: 60vh;
+      }
+      .secondsection .box {
+        background-color: white;
+        width: 77vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 81px;
+        width: 1px;
+        background-color: white;
+        margin: 0px 93px;
+      }
+      .secondsection .vertical-node {
+        height: 90px;
+        width: 1px;
+        background-color: white;
+        margin: 0px 93px;
+      }
+      .secondsection .vertical-video {
+        height: 92px;
+        width: 1px;
+        background-color: white;
+        margin: 0px 93px;
+      }
+      .image-top {
+        width: 72px;
+        position: relative;
+        top: -39px;
+        left: -36px;
+      }
+      .image-top-1 {
+        width: 70px;
+        position: relative;
+        top: -54px;
+        left: -33px;
+      }
+      .image-top-2 {
+        width: 32px;
+        position: relative;
+        top: -46px;
+        left: -13px;
+      }
+      .image-top-3 {
+        width: 103px;
+        position: relative;
+        top: -51px;
+        left: -49px;
+      }
+      .image-top-4 {
+        width: 41px;
+        position: relative;
+        top: -44px;
+        left: -19px;
+      }
+      .vertical-text {
+        position: relative;
+        top: 41px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 47px;
+        width: 150px;
+        font-size: 10px;
+        color: grey;
+      }
+      footer {
+        background-color: #0e0e1a;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 198px;
+        justify-content: flex;
+      }
+      .footersecond a{
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          width: 40px;
+          height: 40px;
+          background: transparent;
+          border: 2px solid #0ef;
+          border-radius: 50%;
+          font-size: 30px;
+          color: lightskyblue;
+          text-decoration: none;
+          margin: 30px 15px 30px 0px;
+      }
+      .footersecond a:hover{
+        background-color: #0ef;
+        color: #0e0e1a;
+        box-shadow: 0 0 20px #0ef;
+      }
+      footer .footersecond{
+        text-align: center;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: grey;
+        padding: 12px 0px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Tushar Portfolio</div>
+        <div class="right"></div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          hello this is <span class="purple">Tushar</span>
+          <div>I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn-visit">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="root.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-grey">what is done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="htmll.png" alt="" />
+            <div class="vertical-text">Web Developer</div>
+            <div class="vertical-desc">
+              <div>
+                Web Developer with 1+ years of experience managing multiple
+                website and web application design projects.
+              </div>
+              <div>
+                Adept at developing creative and functional designs, web page
+                layouts, color schemes, and infrastructure to maintain a
+                cohesive website consistent with clients' needs.
+              </div>
+            </div>
+          </div>
+          <div class="vertical-node">
+            <img class="image-top-1" src="node.png" alt="" />
+            <div class="vertical-text">Node.js Developer</div>
+            <div class="vertical-desc">
+              <div>
+                Integration of user-facing elements developed by front-end
+                developers with server side logic.
+              </div>
+              <div>Implementation of security and data protection.</div>
+              <div>Design and implementation of data storage solutions.</div>
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top-2" src="react.png" alt="" />
+            <div class="vertical-text">React Developer</div>
+            <div class="vertical-desc">
+              <div>
+                1+ years experienced React Developer with hands-on experience in
+                identifying web-based user interactions along with designing &
+                implementing highly-responsive user interface components by
+                deploying React concepts.
+              </div>
+            </div>
+          </div>
+          <div class="vertical-video">
+            <img class="image-top-3" src="after_effects.png" alt="" />
+            <div class="vertical-text">Video Editor</div>
+            <div class="vertical-desc">
+              <div>Edited 130+ videos for clients like Drona, Lead Mines Midea,Ayugrid.</div> 
+              <div>Sorted and edited 5+ hours of
+                raw footage into 10 minutes of finished video per week with 95%
+                positive client feedback.</div>
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top-4" src="canva-icon.png" alt="" />
+            <div class="vertical-text">Graphic Designer</div>
+            <div class="vertical-desc">
+              <div>Collaborated with Marketing, PR, and Social Media teams
+                to design graphics, boosting social engagement by 32% .</div> 
+                <div>Used HTML and CSS to create a mock, highlighting custom
+                  graphics for a product that launched to 500+ hospitals</div>
+            </div>
+          </div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footerfirst">
+          <h3>Tushar's Developer Portfolio</h3>
+        </div>
+      </div>
+      <div class="footersecond">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <a href="#"><i class='bx bxl-git' ></i></a>
+      </div>
+      <div class="footer-rights">
+        copyright &#169; Tusharportfolio.com | &#174; All right reserved
+      </div>
+    </footer>
+    <!-- Setup and start animation! -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["<i>Web</i> Developer.", "Video Editor", "Graphic Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
